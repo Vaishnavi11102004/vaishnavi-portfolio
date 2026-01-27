@@ -1,0 +1,53 @@
+U VAISHNAVI 
+ascanauvn@gmail.com 
++91 75690 48822 
+github.com/Vaishnavi11102004 
+linkedin.com/in/u-vaishnavi-10a567328 
+
+Objective : 
+Motivated and dedicated final-year B.Tech student in Computer Science and 
+Engineering with a specialization in Artificial Intelligence, seeking an entry-level 
+position as a Software Engineer. Eager to leverage strong programming skills and 
+academic project experience to contribute effectively in a dynamic tech 
+environment. Fast learner and problem-solver with a passion for continuous learning 
+and innovation. 
+
+Technical skills : 
+• Programming Languages: Python, Java, C 
+• Technologies: Machine Learning, Deep Learning 
+• Database: MySQL, MongoDB 
+• Tools: Microsoft Word, PowerPoint, Excel 
+• Cloud Technologies: Microsoft Azure Fundamentals 
+
+Educational Qualifications : 
+• B.Tech (CSE-AI) — 78% 
+G. Pullaiah College of Engineering and Technology 
+• Intermediate (10+2) — 70% 
+Kendriya Vidyalaya, Kurnool 
+• SSC(10th) — 74% 
+Kendriya Vidyalaya, Kurnool 
+Projects : - 2026 - 2022 - 2020 
+• Emotion-Based Music Recommendation System– Python, ML/DL 
+Built a system to detect user emotion and recommend music playlists. 
+• Emoji Catcher Game– JavaScript, HTML, MediaPipe 
+Interactive game where emojis are caught using hand gesture controls. 
+• Classification of Poultry Diseases– Python, Deep Learning (CNN) 
+Designed and implemented a CNN-based deep learning model to classify 
+poultry diseases from image datasets for early detection and prevention.
+ 
+INTERNSHIPS & TRAININGS : 
+AI- Data Quality Analyst Intern — Rooman Technologies 
+May 2025– July 2025 
+• Worked on data validation, preprocessing, and annotation tasks supporting AI/ML 
+model quality. 
+AI & ML Intern — Smart Bridge 
+• Gained hands-on experience in AI and ML model development. 
+May 2025– July 2025 
+• Worked on implementing machine learning algorithms and deploying models. 
+
+CERTIFICATIONS : 
+• Microsoft Azure Fundamentals 
+• IBM SkillsBuild Certification 
+• NVIDIA: Fundamentals of Deep Learning 
+• ServiceNow Certified System Administrator (CSA) — ServiceNow
+

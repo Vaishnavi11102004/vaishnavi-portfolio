@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A modern, interactive portfolio website with animations, gallery, and a sticky navigation."
+    />
+    <title>Vaishnavi | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="header" data-header>
+      <div class="container header__inner">
+        <a class="brand" href="#top" aria-label="Home">
+          <span class="brand__mark" aria-hidden="true">UV</span>
+          <span class="brand__text">Vaishnavi</span>
+        </a>
+
+        <nav class="nav" aria-label="Primary">
+          <button class="icon-btn nav__toggle" type="button" data-nav-toggle aria-label="Open menu">
+            <span class="icon icon--menu" aria-hidden="true"></span>
+          </button>
+
+          <div class="nav__panel" data-nav-panel>
+            <ul class="nav__list">
+              <li><a class="nav__link" href="#about" data-nav-link>About</a></li>
+              <li><a class="nav__link" href="#skills" data-nav-link>Skills</a></li>
+              <li><a class="nav__link" href="#achievements" data-nav-link>Achievements</a></li>
+              <li><a class="nav__link" href="#gallery" data-nav-link>Gallery</a></li>
+              <li><a class="nav__link" href="#contact" data-nav-link>Contact</a></li>
+            </ul>
+
+            <div class="nav__actions">
+              <button class="btn btn--ghost" type="button" data-theme-toggle>
+                <span class="icon icon--sun" aria-hidden="true"></span>
+                <span class="btn__text" data-theme-label>Light</span>
+              </button>
+              <a class="btn btn--primary" href="./assets/u_vaishnavi_cv.pdf" download>
+                <span class="icon icon--download" aria-hidden="true"></span>
+                Resume
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-label="Hero">
+        <div class="hero__bg" aria-hidden="true">
+          <span class="blob blob--1"></span>
+          <span class="blob blob--2"></span>
+          <span class="blob blob--3"></span>
+          <span class="grid"></span>
+        </div>
+
+        <div class="container hero__inner">
+          <div class="hero__copy">
+            <p class="badge reveal">UI / Frontend Intern</p>
+            <h1 class="hero__title">
+              <span class="reveal">Designing</span>
+              <span class="gradient-text reveal" data-reveal-delay="120">pixel-perfect</span>
+              <span class="reveal" data-reveal-delay="200">interfaces</span>
+              <span class="reveal" data-reveal-delay="280">that feel alive.</span>
+            </h1>
+            <p class="hero__subtitle reveal" data-reveal-delay="360">
+              I build responsive, accessible web experiences with thoughtful motion, delightful
+              micro-interactions, and clean code.
+            </p>
+
+            <div class="hero__cta reveal" data-reveal-delay="440">
+              <a class="btn btn--primary" href="#contact">
+                <span class="icon icon--spark" aria-hidden="true"></span>
+                Let’s work together
+              </a>
+              <a class="btn btn--ghost" href="#gallery">
+                <span class="icon icon--grid" aria-hidden="true"></span>
+                View gallery
+              </a>
+            </div>
+
+            <dl class="quick-facts reveal" data-reveal-delay="520">
+              <div class="fact">
+                <dt>Languages</dt>
+                <dd>HTML · CSS · JS</dd>
+              </div>
+              <div class="fact">
+                <dt>Focus</dt>
+                <dd>UI · Motion · UX</dd>
+              </div>
+              <div class="fact">
+                <dt>Interests</dt>
+                <dd>Design Systems</dd>
+              </div>
+            </dl>
+          </div>
+
+          <aside class="hero__card reveal" data-reveal-delay="300" aria-label="Profile card">
+            <div class="profile">
+              <div class="profile__avatar" aria-hidden="true">
+                <span class="profile__ring"></span>
+                <img class="profile__photo" src="./assets/photo.png" alt="Vaishnavi" />
+                <span class="profile__initials">UV</span>
+              </div>
+              <div class="profile__meta">
+                <p class="profile__name">Vaishnavi</p>
+                <p class="profile__tag">Frontend Developer</p>
+              </div>
+              <div class="profile__chips" aria-label="Highlights">
+                <span class="chip">Responsive</span>
+                <span class="chip">Accessible</span>
+                <span class="chip">Interactive</span>
+              </div>
+            </div>
+          </aside>
+        </div>
+
+        <div class="scroll-hint" aria-hidden="true">
+          <span class="scroll-hint__dot"></span>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">About</h2>
+            <p class="section__lead">
+              A short intro, a bit of personality, and a clear snapshot of what I love building.
+            </p>
+          </div>
+
+          <div class="card split" data-animate>
+            <div class="split__left">
+              <h3>Hi, I’m Vaishnavi.</h3>
+              <p>
+                I’m a UI-focused frontend developer who enjoys turning ideas into polished web
+                interfaces. I care about layout, typography, motion, and the small details that make
+                products feel premium.
+              </p>
+              <p>
+                I’m currently exploring design systems, component-driven development, and modern
+                animation techniques that stay smooth and non-distracting.
+              </p>
+            </div>
+            <div class="split__right">
+              <ul class="list">
+                <li><span class="dot"></span>Strong fundamentals in HTML/CSS/JS</li>
+                <li><span class="dot"></span>Comfortable with responsive layouts & accessibility</li>
+                <li><span class="dot"></span>Enjoy building reusable UI components</li>
+              </ul>
+              <div class="mini-stats" aria-label="Quick stats">
+                <div class="mini-stat">
+                  <p class="mini-stat__num">10+</p>
+                  <p class="mini-stat__label">UI components</p>
+                </div>
+                <div class="mini-stat">
+                  <p class="mini-stat__num">3</p>
+                  <p class="mini-stat__label">Portfolio sections</p>
+                </div>
+                <div class="mini-stat">
+                  <p class="mini-stat__num">1</p>
+                  <p class="mini-stat__label">Lightbox gallery</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">Skills</h2>
+            <p class="section__lead">
+              The tools I use to build clean, responsive, interactive interfaces.
+            </p>
+          </div>
+
+          <div class="grid-3" data-animate>
+            <article class="card skill">
+              <h3>Frontend</h3>
+              <p>Semantic HTML, modern CSS, JavaScript, responsive UI.</p>
+              <div class="skill__tags">
+                <span class="pill">HTML</span>
+                <span class="pill">CSS</span>
+                <span class="pill">JS</span>
+                <span class="pill">React</span>
+              </div>
+            </article>
+            <article class="card skill">
+              <h3>Design</h3>
+              <p>Typography, spacing systems, layout, component consistency.</p>
+              <div class="skill__tags">
+                <span class="pill">Figma</span>
+                <span class="pill">Design Systems</span>
+                <span class="pill">UX</span>
+              </div>
+            </article>
+            <article class="card skill">
+              <h3>Quality</h3>
+              <p>Accessibility, performance basics, and pixel-precision.</p>
+              <div class="skill__tags">
+                <span class="pill">a11y</span>
+                <span class="pill">Performance</span>
+                <span class="pill">Cross-browser</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="achievements">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">Achievements</h2>
+            <p class="section__lead">
+              Showcase wins, milestones, or learning highlights (swap these with yours).
+            </p>
+          </div>
+
+          <div class="timeline" data-animate>
+            <article class="card timeline__item">
+              <p class="timeline__date">2025</p>
+              <h3 class="timeline__title">Built a responsive landing page</h3>
+              <p class="timeline__desc">Implemented a full layout with animations and clean UI.</p>
+            </article>
+            <article class="card timeline__item">
+              <p class="timeline__date">2025</p>
+              <h3 class="timeline__title">Created a small component library</h3>
+              <p class="timeline__desc">Buttons, cards, form inputs, and reusable layout patterns.</p>
+            </article>
+            <article class="card timeline__item">
+              <p class="timeline__date">2026</p>
+              <h3 class="timeline__title">Portfolio v1 shipped</h3>
+              <p class="timeline__desc">
+                Sticky nav, animated hero, interactive gallery, and dark mode.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="gallery">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">Gallery</h2>
+            <p class="section__lead">
+              Interactive image gallery (hover zoom + masonry + lightbox). Click any card.
+            </p>
+          </div>
+
+          <div class="gallery" data-gallery data-animate aria-label="Image gallery"></div>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">Contact</h2>
+            <p class="section__lead">Send a quick note — I reply fast.</p>
+          </div>
+
+          <div class="contact" data-animate>
+            <form class="card form" data-contact-form>
+              <label class="field">
+                <span class="field__label">Name</span>
+                <input class="field__input" name="name" autocomplete="name" required />
+              </label>
+              <label class="field">
+                <span class="field__label">Email</span>
+                <input class="field__input" type="email" name="email" autocomplete="email" required />
+              </label>
+              <label class="field field--full">
+                <span class="field__label">Message</span>
+                <textarea class="field__input field__textarea" name="message" rows="5" required></textarea>
+              </label>
+              <button class="btn btn--primary" type="submit">
+                <span class="icon icon--send" aria-hidden="true"></span>
+                Send message
+              </button>
+              <p class="form__hint" data-form-hint>
+                This is a demo form (no backend). It will open your email client.
+              </p>
+            </form>
+
+            <aside class="card contact__aside">
+              <h3>Quick links</h3>
+              <ul class="links">
+                <li><a href="#top">Back to top</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="./assets/u_vaishnavi_cv.pdf" download>Download resume</a></li>
+              </ul>
+              <div class="divider"></div>
+              <p class="muted">
+                Tip: Replace the placeholder gallery images and update your details to make it truly yours.
+              </p>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <p class="muted">© <span data-year></span> Vaishnavi. Built with HTML/CSS/JS.</p>
+        <a class="muted" href="#top">Top</a>
+      </div>
+    </footer>
+
+    <div class="lightbox" data-lightbox aria-hidden="true">
+      <div class="lightbox__backdrop" data-lightbox-close></div>
+      <div class="lightbox__dialog" role="dialog" aria-modal="true" aria-label="Image viewer">
+        <button class="icon-btn lightbox__close" type="button" data-lightbox-close aria-label="Close">
+          <span class="icon icon--close" aria-hidden="true"></span>
+        </button>
+        <button class="icon-btn lightbox__nav lightbox__nav--prev" type="button" data-lightbox-prev aria-label="Previous">
+          <span class="icon icon--chev-left" aria-hidden="true"></span>
+        </button>
+        <figure class="lightbox__figure">
+          <img class="lightbox__img" alt="" data-lightbox-img />
+          <figcaption class="lightbox__caption" data-lightbox-caption></figcaption>
+        </figure>
+        <button class="icon-btn lightbox__nav lightbox__nav--next" type="button" data-lightbox-next aria-label="Next">
+          <span class="icon icon--chev-right" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+
+    <script src="./script.js" defer></script>
+  </body>
+</html>
+
